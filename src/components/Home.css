@@ -1,0 +1,50 @@
+.home-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .webcam {
+    width: 720px;
+    height: 540px;
+    margin: 20px auto;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    display: block;
+  }
+  
+  .button-container {
+    margin-top: 20px;
+  }
+  
+  .button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+  }
+  
+  .join-meeting {
+    background-color: #28a745;
+  }
+  
+  .mute-unmute {
+    background-color: #dc3545;
+  }
+  
+  .video-toggle {
+    background-color: #ffc107;
+  }
+  
+  .more-options,
+  .show-members {
+    background-color: #17a2b8;
+  }
+  

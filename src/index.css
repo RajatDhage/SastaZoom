@@ -1,13 +1,48 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: Arial, sans-serif;
+  text-align: center;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.home-container, .meeting-container {
+  margin-top: 50px;
+}
+
+.webcam {
+  width: 700px; /* Reduced the width */
+  height: 540px; /* Reduced the height */
+  margin: 10px auto;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  display: block;
+}
+
+.join-button, .controls button {
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.join-button:hover, .controls button:hover {
+  background-color: #0056b3;
+}
+
+.video-off {
+  width: 70%;
+  height: 300px;
+  background-color: #333;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.members-list {
+  margin-top: 20px;
+  border-top: 1px solid #ddd;
+  padding-top: 10px;
 }
